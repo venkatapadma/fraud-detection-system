@@ -1,0 +1,46 @@
+[
+  {
+    "transactionId": "316299dja",
+    "userId": "U1",
+    "amount": 80000,
+    "location": "India",
+    "type": "credit",
+    "items": [
+      {"itemId":  "T111", "name":  "iPhone", "price": 50000, "quantity": 1}
+    ]
+  },
+  {
+    "transactionId": "316299djb",
+    "userId": "U1",
+    "amount": 90000,
+    "location": "India",
+    "type": "debit",
+    "items": [
+      {"itemId":  "T115", "name":  "MacBook", "price": 40000, "quantity": 1},
+      {"itemId":  "T116", "name":  "iPad", "price": 10000, "quantity": 1}
+    ]
+  },
+  {
+    "transactionId": "316299djd",
+    "userId": "U3",
+    "amount": 100000,
+    "location": "USA",
+    "type": "credit",
+    "items": [
+      {"itemId":  "T117", "name":  "iPhone", "price": 50000, "quantity": 1},
+      {"itemId":  "T118", "name":  "MacBook", "price": 40000, "quantity": 1},
+      {"itemId":  "T119", "name":  "iPad", "price": 10000, "quantity": 1}
+    ]
+  },
+  {
+    "transactionId": "316299djd",
+    "userId": "U4",
+    "amount": 95000,
+    "location": "China",
+    "type": "debit",
+    "items": [
+      {"itemId":  "T112", "name":  "iPhone", "price": 50000, "quantity": 1},
+      {"itemId":  "T113", "name":  "MacBook", "price": 40000, "quantity": 1}
+    ]
+  }
+]
