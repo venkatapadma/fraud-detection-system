@@ -4,18 +4,16 @@
 
 This project detects potentially fraudulent transactions using Apache Kafka Streams.
 
-## Fraud Detection Rules
-
-A transaction is flagged as **fraudulent** if it satisfies **any** of the following conditions:
-
 ## Technologies Used
 
 - Java
 - Apache Kafka
 - Apache Kafka Streams
 - Maven
+  
+## Fraud Detection Rules
 
----
+A transaction is flagged as **fraudulent** if it satisfies **any** of the following conditions:
 
 ### 1. High-Value Transaction
 
