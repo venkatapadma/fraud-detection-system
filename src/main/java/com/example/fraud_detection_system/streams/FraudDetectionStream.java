@@ -40,7 +40,7 @@ public class FraudDetectionStream {
                         log.warn("FRAUD ALERT - transactionId={}, value={}", key, tx.amount()));
 
         //filter
-        transactionsStream.filter((key, tx)->tx.amount() > 25000)
+        transactionsStream.filter((key, tx)->tx.amount() > 10000)
                 .peek((key, tx) -> log.warn("FRAUD ALERT for {}",tx));
 //
 //        //filterNot()
