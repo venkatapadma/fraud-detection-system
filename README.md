@@ -8,6 +8,15 @@ This project detects potentially fraudulent transactions using Apache Kafka Stre
 
 A transaction is flagged as **fraudulent** if it satisfies **any** of the following conditions:
 
+## Technologies Used
+
+- Java
+- Apache Kafka
+- Apache Kafka Streams
+- Maven
+
+---
+
 ### 1. High-Value Transaction
 
 - Transaction amount is greater than **10,000**.
@@ -25,7 +34,6 @@ amount > 10000
 | TXN001 | Alice | 12,500 | Fraud |
 | TXN002 | Bob | 8,000 | Valid |
 
----
 
 ### 2. Multiple Transactions Within 10 Seconds
 
@@ -49,13 +57,6 @@ transactions_per_user > 3 within 10 seconds
 Since Alice performed **4 transactions in 10 seconds**, the rule is triggered.
 
 ---
-
-## Technologies Used
-
-- Java
-- Apache Kafka
-- Apache Kafka Streams
-- Maven
 
 ## Processing Flow
 
